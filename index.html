@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Giphy Party</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <h1 id="header">GIPHY PARTY</h1>
+    
+<div class="container">
+    <form id="input-form">
+        <input type="text" id="gif-input" placeholder="Enter a search term">
+        <button id="searchBtn">Search Giphy!</button>
+        <button id="removeBtn">Remove Images</button>
+    </form>
+
+    <div id="gif-area"></div>
+</div>
+
+
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
